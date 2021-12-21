@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="styles.css">
+    <title>JUEGO, ADIVINE EL NUMERO</title>
+</head>
+
+<center>
+
+<body>
+
+    
+        <tr>
+               <h1>Juega y Diviertete Adivinando el ¡NUMERO!</h1> 
+         <label>¡Rango (1 - 100)! </label> <p></p>
+         <label>Recuerde que tiene 10 Intentos</label>
+         
+         <P></P>
+        
+            <h3>Ingrese el Número:</h3> 
+           
+            <input type="number" id="field_adivina" placeholder="Número"><P></P>
+
+             <button class="btn_v" id="btn_v" onclick="validar()">INTENTAR</button>
+             <button class="btn_r" id="btn_r" onclick="reiniciar()">REINICIAR JUEGO</button>
+
+            <h3 id="intentos">Intentos: </h3>
+        </div>
+        
+           
+            <h4 id="guia">¡Ayuda!</h4>
+            
+        </div>
+        <div>
+            
+            
+            <div class="block" >
+            <article class="article">
+                <label>Números digitados por el Jugador:</label> 
+                <ul  id="guia_valores"></ul>
+                
+            </article>
+            </div>
+        </div>
+        </center>
+        <P></P>
+        
+    </div>
+</body>
+
+
+</tr>
+</table>
+</center>
+
+<script src="./js/operaciones.js"></script>
+
+</html>
